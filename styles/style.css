@@ -156,3 +156,49 @@ footer {
     padding: 0.5rem 1rem;
     border-top: 0.063rem solid var(--border);
 }
+
+/* ------------------------------ */
+/* MOBILE (up to ~600px width)    */
+/* ------------------------------ */
+@media (max-width: 600px) {
+
+    body {
+        padding: 1rem;
+    }
+
+    #pfp {
+        width: 6rem;
+        border-radius: 1.5rem;
+    }
+
+    main h1 {
+        font-size: 2.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    main p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #btn-div {
+        width: 100%;
+        max-width: 20rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+    }
+
+    footer {
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .btn:active::after {
+        clip-path: circle(100% at 50% 50%);
+    }
+}

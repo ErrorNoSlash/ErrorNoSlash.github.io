@@ -167,7 +167,7 @@ footer {
     }
 
     #pfp {
-        width: 6rem;
+        width: 7rem;
         border-radius: 1.5rem;
     }
 
@@ -194,6 +194,7 @@ footer {
     footer {
         font-size: 1rem;
         padding: 0.75rem;
+        width: 100%;
     }
 }
 

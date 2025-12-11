@@ -53,7 +53,7 @@
     }
 
     &:hover {
-        color: var(--black) !important;
+        color: var(--black);
         border-color: transparent;
     }
 }
@@ -196,6 +196,7 @@ footer {
     }
 
     footer {
+        margin-top: 2rem;
         font-size: 1rem;
         padding: 0.75rem;
         width: 100%;

@@ -96,7 +96,7 @@ body {
 
 /* Main body */
 body {
-    background-color: var(--black);
+    background-color: white;
     color: var(--grey);
     font-family: "Outfit", Arial, Helvetica, sans-serif;
     display: flex;

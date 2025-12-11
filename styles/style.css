@@ -165,10 +165,6 @@ footer {
 /* ------------------------------ */
 @media (max-width: 600px) {
 
-    body {
-        padding: 1rem;
-    }
-
     #pfp {
         width: 7.5rem;
         border-radius: 1.5rem;

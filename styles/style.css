@@ -167,7 +167,7 @@ footer {
     }
 
     #pfp {
-        width: 8rem;
+        width: 7.5rem;
         border-radius: 1.5rem;
     }
 
@@ -184,7 +184,6 @@ footer {
     #btn-div {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         width: 100%;
         max-width: 20rem;
         flex: 1;

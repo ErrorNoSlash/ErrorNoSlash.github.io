@@ -56,11 +56,6 @@
         color: var(--black);
         border-color: transparent;
     }
-
-    &.glow-btn:hover {
-        box-shadow: 0 0 0.625rem var(--clr), 0 0 3.125rem var(--clr);
-        border-color: var(--grey);
-    }
 }
 
 html,
@@ -207,6 +202,15 @@ footer {
     .cursor-dot,
     .cursor-outline {
         display: none;
+    }
+
+    .btn:hover {
+        color: inherit !important;
+        border-color: inherit !important;
+    }
+
+    .btn:hover::after {
+        clip-path: circle(0% at 50% 50%) !important;
     }
 
     body {

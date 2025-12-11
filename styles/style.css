@@ -209,11 +209,6 @@ footer {
         display: none;
     }
 
-
-    .btn:active {
-        color: var(--black);
-    }
-
     body {
         cursor: default;
     }

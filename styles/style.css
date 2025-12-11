@@ -209,6 +209,11 @@ footer {
         display: none;
     }
 
+
+    .btn {
+        color: var(--black);
+    }
+
     body {
         cursor: default;
     }

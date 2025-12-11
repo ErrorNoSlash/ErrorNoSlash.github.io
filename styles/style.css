@@ -210,7 +210,7 @@ footer {
     }
 
 
-    .btn :hover {
+    .btn:active {
         color: var(--black);
     }
 

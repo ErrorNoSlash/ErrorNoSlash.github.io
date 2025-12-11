@@ -140,6 +140,7 @@ main {
     #btn-div {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         width: 30rem;
         gap: 1rem;
     }
@@ -167,7 +168,7 @@ footer {
     }
 
     #pfp {
-        width: 7rem;
+        width: 8rem;
         border-radius: 1.5rem;
     }
 
@@ -184,6 +185,7 @@ footer {
     #btn-div {
         width: 100%;
         max-width: 20rem;
+        flex: 1;
     }
 
     .btn {

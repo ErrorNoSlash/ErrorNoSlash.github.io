@@ -198,7 +198,13 @@ footer {
 }
 
 @media (hover: none) and (pointer: coarse) {
-    .btn:active::after {
-        clip-path: circle(100% at 50% 50%);
+
+    .cursor-dot,
+    .cursor-outline {
+        display: none;
+    }
+
+    body {
+        cursor: default;
     }
 }
